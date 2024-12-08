@@ -1,0 +1,2040 @@
+[
+	// 100 GRUNDSTÜCKSKOSTEN
+	{
+		"id": "110",
+		"name": "Grundstückswert",
+		"tags": [
+			"Bodenrichtwert",
+			"Grundstück",
+			"Kaufpreis",
+			"Verkehrswert",
+			"grundstücksgleiche Rechte (Erbbaurecht)"
+		]
+	},
+	// 120 GRUNDSTÜCKSNEBENKOSTEN
+	{
+		"id": "121",
+		"name": "Vermessungsgebühren",
+		"tags": [
+			"Grenzermessung",
+			"Abmarkung",
+			"Grenzfeststellung",
+			"Übernahme ins Liegenschafskataster inkl. Verwaltungsgebühren",
+			"Grundbruchauszüge",
+			"Flurkarte"
+		]
+	},
+	{
+		"id": "122",
+		"name": "Gerichtsgebühren",
+		"tags": [
+			"Grundbuchamt",
+			"Umschreibung",
+			"Eintragung und Löschung"
+		]
+	},
+	{
+		"id": "123",
+		"name": "Notariatsgebühren",
+		"tags": [
+			"Notar",
+			"Beurkundung",
+			"Aufstellung, Abwicklung und Vollzug des notariellen Kaufvertrags"
+		]
+	},
+	{
+		"id": "124",
+		"name": "Grunderwerbssteuer",
+		"tags": [
+			"Kauf",
+			"Steuer",
+			"Abgabe",
+			"grundstücksgleiche Rechte"
+		]
+	},
+	{
+		"id": "125",
+		"name": "Altlasten",
+		"tags": [
+			"Untersuchungen zu Altlasten und deren Beseitigung",
+			"Baugrunduntersuchung",
+			"Untersuchungen über die Bebaubarkeit (zur Wertbeurteilung)"
+		]
+	},
+	{
+		"id": "126",
+		"name": "Wertermittlung",
+		"tags": [
+			"grundstücksgleiche Rechte"
+		]
+	},
+	{
+		"id": "127",
+		"name": "Genehmigungsgebühren",
+		"tags": [
+			"Gebühren für amtliche Genehmigungen",
+			"Grundstücksteilung",
+			"Eintragung in das Baulastenverzeichnis"
+		]
+	},
+	{
+		"id": "128",
+		"name": "Bodenordnung und Grenzregulierung",
+		"tags": [
+			"Neurodnung und Umlegung von Grundstücken und Flurstücken",
+			"Grenzregulierung",
+			"Ausgleichsleistungen",
+			"Umlegungsbeiträge"
+		]
+	},
+	{
+		"id": "129",
+		"name": "Sonstiges zu KG 120",
+		"tags": [
+			"Maklerprovisionen",
+			"Beschaffung von Karten und Plänen)"
+		]
+	},
+	// 130 RECHTE DRITTER
+	{
+		"id": "131",
+		"name": "Abfindungen",
+		"tags": [
+			"Abfindungen und Entschädigungen für bestehende Pachtverträge / Mietverträge"
+		]
+	},
+	{
+		"id": "132",
+		"name": "Ablösung dinglicher Rechte",
+		"tags": [
+			"Ablösungskosten von Belastungen Grundstück",
+			"Wegerecht",
+			"Erbbaurecht",
+			"Nießbrauchrecht",
+			"Nutzungsrecht",
+			"Grundpfandrecht",
+			"Baulast"
+		]
+	},
+	{
+		"id": "139",
+		"name": "Sonstiges zu KG 130",
+		"tags": [
+			"Räumungsklage"
+		]
+	},
+	// 200 VORBEREITENDE MASSNAHMEN
+	// 210 HERRICHTEN
+	{
+		"id": "211",
+		"name": "Sicherungsmaßnahmen",
+		"tags": [
+			"Schutz vorhandener baulichen Anlagen",
+			"Sichern von Bewuchs / Vegetationsschichten"
+		]
+	},
+	{
+		"id": "212",
+		"name": "Abbruchmaßnahmen",
+		"tags": [
+			"Abbruch Bauwerk, Bauwerksteile, technische Anlagen, Verkehrsanlage, Versorgungsleitung, Entsorgungsleitung",
+			"Rückbau"
+		]
+	},
+	{
+		"id": "213",
+		"name": "Altlastenbeseitigung",
+		"tags": [
+			"Altlast",
+			"Altablagerung",
+			"gefährliche umweltgefährdende Stoffe",
+			"Umwelt",
+			"Umweltgefährdung",
+			"Sanieren belasteter und kontaminierter Böden"
+		]
+	},
+	{
+		"id": "214",
+		"name": "Herrichten der Geländeoberflächen",
+		"tags": [
+			"Heckenroden",
+			"Wurzelroden",
+			"Bäume fällen",
+			"Sicherung von Oberböden",
+			"Bodenbewegungen"
+		]
+	},
+	{
+		"id": "215",
+		"name": "Kampfmittelräumung",
+		"tags": [
+			"Bombe",
+			"Kriegsmaterial",
+			"Bombensuche",
+			"Auffunden und Räumung / Entschärfung Kampfmittel"
+		]
+	},
+	{
+		"id": "216",
+		"name": "Kulturhistorische Funde",
+		"tags": [
+			"Sicherung von archäologischen Funden"
+		]
+	},
+	{
+		"id": "219",
+		"name": "Sonstige Herrichtungskosten",
+		"tags": [
+			"Evakuierungskosten im Zuge von Kampfmittelräumung"
+		]
+	},
+	// 220 ÖFFENTLICHE ERSCHLIESSUNG
+	{
+		"id": "221",
+		"name": "Abwasserentsorgung",
+		"tags": [
+			"Abwasserentsorgung",
+			"Regenwasser",
+			"Schmutzwasser",
+			"Anliegerbeitrag",
+			"Kostenzuschüsse",
+			"Anschlusskosten"
+		]
+	},
+	{
+		"id": "222",
+		"name": "Wasserversorgung",
+		"tags": [
+			"öffentliche Träger",
+			"Kostenzuschüsse",
+			"Anschlusskosten"
+		]
+	},
+	{
+		"id": "223",
+		"name": "Gasversorgung",
+		"tags": [
+			"öffentliche Träger",
+			"Kostenzuschüsse",
+			"Anschlusskosten"
+		]
+	},
+	{
+		"id": "224",
+		"name": "Fernwärmeversorgung",
+		"tags": [
+			"öffentliche Träger",
+			"Kostenzuschüsse",
+			"Anschlusskosten"
+		]
+	},
+	{
+		"id": "225",
+		"name": "Stromversorgung",
+		"tags": [
+			"öffentliche Träger",
+			"Kostenzuschüsse",
+			"Anschlusskosten"
+		]
+	},
+	{
+		"id": "226",
+		"name": "Telekommunikation",
+		"tags": [
+			"Telefon",
+			"Internet"
+		]
+	},
+	{
+		"id": "227",
+		"name": "Verkehrserschließung",
+		"tags": [
+			"öffentliche Verkehrsflächen, Grünflächen, sonstige Freiflächen",
+			"Auto",
+			"Erschließungsbeiträge für die Verkehrs- und Freianlagen einschließlich deren Entwässerung und Beleuchtung"
+		]
+	},
+	{
+		"id": "228",
+		"name": "Abfallentsorgung",
+		"tags": [
+			"Restmüll",
+			"Gelbe Tonne",
+			"Papiertonne",
+			"Gartenabfälle",
+			"Kostenzuschüsse, Anschlusskosten (z. B. für eine leitungsgebundene Abfallentsorgung)"
+		]
+	},
+	{
+		"id": "229",
+		"name": "Sonstiges zu KG 220",
+		"tags": []
+	},
+	{
+		"id": "230",
+		"name": "Nichtöffentliche Erschließung",
+		"tags": [
+			"Verkehrsflächen / technische Anlagen ohne öffentlich rechtliche Verpflichtung die später in den Gebrauch der Allgemeinheit übergehen",
+			"⚠️ Kosten von Anlagen auf dem eigenen Grundstück gehören zur KG 500"
+		]
+	},
+	// 240 AUSGLEICHSABGABEN
+	{
+		"id": "241",
+		"name": "Ausgleichsmaßnahmen",
+		"tags": [
+			"entstehen aus landesrechtliche Bestimmungen wegen des geplanten Bauvorhabens einmalig und zusätzlich zu den Erschließungsbeiträgen KG 230",
+			"Artenschutz",
+			"Naturschutz",
+			"Stellplätze",
+			"Baumbestand"
+		]
+	},
+	{
+		"id": "242",
+		"name": "Ausgleichsabgaben",
+		"tags": [
+			"Ablösen der öffentlich rechtlichen Verpflichtungen",
+			"Artenschutz",
+			"Naturschutz",
+			"Stellplätze",
+			"Baumbestand"
+		]
+	},
+	{
+		"id": "249",
+		"name": "Sonstiges zu KG 240",
+		"tags": []
+	},
+	// 250 ÜBERGANGSMASSNAHMEN
+	{
+		"id": "251",
+		"name": "Bauliche Maßnahmen",
+		"tags": [
+			"Provisorien",
+			"provisorische Maßnahmen die bis zur Fertigstellung erforderlich sind und nach Fertigstellung wieder entfernt werden"
+		]
+	},
+	{
+		"id": "252",
+		"name": "Organisatorische Maßnahmen",
+		"tags": [
+			"Auslagerung Nutzung",
+			"Umzug",
+			"Miete"
+		]
+	},
+	{
+		"id": "259",
+		"name": "Sonstiges zu KG 250",
+		"tags": [
+			"Betriebskosten der provisorischen Maßnahmen"
+		]
+	},
+	// 300 BAUWERK - BAUKONSTRUKTIONEN
+	// 310 BAUGRUBE/ERDBAU
+	{
+		// "vob": "18300"
+		"id": "311",
+		"name": "Baugrubenherstellung",
+		"tags": [
+			"Mutterboden abschieben und seitlich lagern",
+			"Boden Abfuhr",
+			"Baugrubenaushub",
+			"Gräben",
+			"Schächte",
+			"Planum",
+			"Mulden",
+			"Bankett",
+			"Bodenhinterfüllungen von Arbeitsräumen",
+			"Anfuhr von Böden",
+			"Oberflächenboden (Mutterboden) andecken",
+			"Erdarbeiten"
+		],
+		"unit": "m³",
+		"type": "Baugrubenrauminhalt/Erdbaurauminhalt",
+		"assess": "Rauminhalt einschließlich der Arbeitsräume und Böschungen"
+	},
+	{
+		"id": "312",
+		"name": "Umschließungsarbeiten",
+		"vob": "18300",
+		"tags": [
+			"Verbauwände",
+			"Schlitzwände",
+			"Pfahlwände",
+			"Spundwände",
+			"Trägerbohlwände",
+			"Injektionswände",
+			"Spritzbetonwände"
+		],
+		"unit": "m²",
+		"type": "Umschließungsfläche",
+		"assess": "Umschlossene Begrenzungsflächen der Baugrube"
+	},
+	{
+		"id": "313",
+		"name": "Wasserhaltung",
+		"tags": [
+			"Beseitigung des Grund- und Schichtenwassers während der Bauzeit"
+		],
+		"unit": "m³",
+		"type": "Wasserhaltungsvolumen",
+		"assess": "Zu entwässernder Rauminhalt einschließlich der Arbeitsräume und Böschungen"
+	},
+	{
+		"id": "314",
+		"name": "Vortrieb",
+		"tags": [
+			"Erdausbruch unter Tage einschließlich Stützung und Sicherung"
+		],
+		"unit": "m³",
+		"type": "Vortriebsvolumen",
+		"assess": "Rauminhalt des Ausbruchs"
+	},
+	{
+		"id": "319",
+		"name": "Sonstige Kosten Baugrube",
+		"tags": [],
+		"unit": "m³",
+		"type": "Baugrubenrauminhalt/Erdbaurauminhalt",
+		"assess": "Rauminhalt einschließlich der Arbeitsräume und Böschungen"
+	},
+	// 320 GRÜNDUNG
+	{
+		"id": "321",
+		"name": "Baugrundverbesserung",
+		"tags": [
+			"Bodenaustausch",
+			"Verdichtung",
+			"Einpressung",
+			"Ankerung",
+			"Stützmaßnahmen",
+			"Kies-Schotter-Tragschicht",
+			"Recyclingmaterial",
+			"Bodenlockerung",
+			"Verlegung von Geotextilien"
+		]
+	},
+	{
+		// VOB/C DIN 18300 - Abrechnung von Erdarbeiten.
+		// VOB/C DIN 18331 - Abrechnung von Betonarbeiten.
+		// VOB/C DIN 13336 - Abrechnung von Abdichtungsarbeiten.
+		"id": "322",
+		"name": "Flachgründungen",
+		"tags": [
+			"Schaumglasschotter",
+			"Sauberkeitsschicht",
+			"Noppenbahn",
+			"Spezial-PE Folie",
+			"Sauberkeitsschicht",
+			"Sohlplatte",
+			"Streifenfundament",
+			"Einzelfundament",
+			"Pumpensumpf"
+		]
+	},
+	{
+		"id": "323",
+		"name": "Tiefgründungen",
+		"tags": [
+			"Pfahlgründung",
+			"Brunnengründung",
+			"Verankerung"
+		]
+	},
+	{
+		"id": "324",
+		"name": "Gründungsbeläge",
+		"tags": [
+			"Pflasterfläche",
+			"Betonpflaster",
+			"Wabensteine",
+			"Verbundsteinpflaster",
+			"Bodenplattendämmung"
+		]
+	},
+	{
+		"id": "325",
+		"name": "Abdichtungen und Bekleidungen",
+		"tags": [
+			"Arbeitsfuge",
+			"Fugenblech",
+			"Arbeitsfugenband",
+			"Sollbruchelement",
+			"Bewegungsfugenband"
+		]
+	},
+	{
+		"id": "326",
+		"name": "Drainagen",
+		"tags": [
+			"Kiesfilterschicht",
+			"Drainrohre",
+			"Drain-Kontrollschacht"
+		]
+	},
+	{
+		"id": "329",
+		"name": "Sonstige Kosten Gründung",
+		"tags": []
+	},
+	// 330 AUSSENWÄNDE
+	{
+		// VOB/C DIN 18330 - Abrechnung von Mauerarbeiten
+		// VOB/C DIN 18331 - Abrechnung von Betonarbeiten
+		// VOB/C DIN 18334 - Abrechnung von Zimmer- und Holzbau
+		"id": "331",
+		"name": "Tragende Außenwände",
+		"tags": [
+			"Außenwände und flächige Konstruktionen aus Mauerwerk, Beton und Holz",
+			"Betonsteine",
+			"Betonhohlblocksteine",
+			"Betonschalungssteine",
+			"Kalksandstein",
+			"Lehmwäde",
+			"Porenbeton",
+			"Ziegelmauerwerk",
+			"Iso-Kimmschicht",
+			"Querschnittsabdichtung",
+			"Stürze",
+			"U-Schalen",
+			"Randsteine"
+		]
+	},
+	{
+		"id": "332",
+		"name": "Nichttragende Außenwände",
+		"tags": []
+	},
+	{
+		"id": "333",
+		"name": "Außenstützen",
+		"tags": [
+			"Mauerwerkspfeiler",
+			"Stahlbetonstützen",
+			"Stahlstützen"
+		]
+	},
+	{
+		// VOB/C DIN 18355 - Abrechnung von Tischlerarbeiten
+		"id": "334",
+		"name": "Außenwandöffnungen",
+		"tags": [
+			"Fenster",
+			"Fenstertüren",
+			"Balkontüren",
+			"Hebeschiebetüren",
+			"Türen",
+			"Tore",
+			"Glas"
+		]
+	},
+	{
+		// VOB/C DIN 18332 - Abrechnung Naturwerksteinarbeiten
+		// VOB/C DIN 18351 - Abrechnung Vorgehängte hinterlüftete Fassaden
+		"id": "335",
+		"name": "Außenwandbekleidungen, außen",
+		"tags": [
+			"Abdichtungsarbeiten",
+			"Dichtungsschwämme",
+			"Bitumenanstrich",
+			"Schweißbahn",
+			"Sperrputz",
+			"Schutzmaßnahmen",
+			"Bitumenwellpappe",
+			"Kunststoff-Drainplatten",
+			"Sichtverfugungen Mauerwerk",
+			"Außenputz",
+			"Kalkzementputz",
+			"Kunstharzputz",
+			"Edelputz",
+			"Wärmedämmputz im Verbundsystem",
+			"Wärmedämmschicht",
+			"Polysterolplatte",
+			"Mineralfaserplatten",
+			"PUR-Platten",
+			"Verblendmauerwerk",
+			"Vorgehängte hinterlüftete Fassaden"
+		]
+	},
+	{
+		//VOB/C DIN 18352 - Abrechnung Fliesen Plattenarbeiten
+		// VOB/C DIN 18363 - Abrechnung Malerarbeiten
+		// VOB/C DIN 18366 - Abrechnung Tapezierarbeiten
+		// VOB/C DIN 18340 - Abrechnung Trockenbauarbeiten
+		"id": "336",
+		"name": "Außenwandbekleidungen, innen",
+		"tags": [
+			"Bekleidungen an Wänden und Stützen",
+			"Putz",
+			"Dichtungsschicht",
+			"Dämmschicht",
+			"Schutzschicht"
+		]
+	},
+	{
+		"id": "337",
+		"name": "Außenwandelemente",
+		"tags": [
+			"Elementierte Außenwandkonstruktionen"
+		]
+	},
+	{
+		"id": "338",
+		"name": "Sonnenschutz",
+		"tags": [
+			"Rollläden",
+			"Außenjalousien",
+			"Gurtkasten",
+			"Markisen",
+			"Markisolette",
+			"Sonnenschutz für das Fenster"
+		]
+	},
+	{
+		"id": "339",
+		"name": "Außenwand, sonstiges",
+		"tags": [
+			"Öffnungen, Durchbrüche, Kernbohrungen im Bestand"
+		]
+	},
+	// 240 INNENWÄNDE / VERTIKALE BAUKONSTRUKTIONEN
+	{
+		// VOB/C DIN 18330 - Abrechnung von Mauerarbeiten
+		// VOB/C DIN 18331 - Abrechnung von Betonarbeiten
+		// VOB/C DIN 18334 - Abrechnung von Zimmer- und Holzbau
+		"id": "341",
+		"name": "Tragende Innenwände",
+		"tags": [
+			"Innenwände",
+			"flächige Konstruktionen aus Mauerwerk, Beton und Holz, einschließlich Ausfachungen, horizontaler Abdichtungen und füllender Teile (z. B. Dämmungen), jedoch ohne Bekleidungen"
+		]
+	},
+	{
+		"id": "342",
+		"name": "Nichttragende Innenwände",
+		"tags": [
+			"Leichtbetonwände"
+		]
+	},
+	{
+		"id": "343",
+		"name": "Innenstützen",
+		"tags": [
+			"Stützen",
+			"Säulen",
+			"Pylone",
+			"Pfeiler",
+			"Fertigteistützen",
+			"Stahlstützen",
+			"Stahlverbundstützen",
+			"Auflagerkonsole"
+		]
+	},
+	{
+		// VOB/C DIN 18355 - Abrechnung Tischlerarbeiten
+		"id": "344",
+		"name": "Innentüren und -fenster",
+		"tags": [
+			"Innenliegende Fenster",
+			"Schaufenster",
+			"Türen",
+			"Tore",
+			"sonstige Öffnungen",
+			"Fensterbänke",
+			"Umrahmungen",
+			"Beschläge",
+			"Antrieb"
+		]
+	},
+	{
+		// VOB/C DIN 18350 - Abrechnung Putzarbeiten
+		// VOB/C DIN 18355 - Abrechnung Tischlerarbeiten
+		// VOB/C DIN 18340 - Abrechnung Trockenbauarbeiten
+		// VOB/C DIN 18332 - Abrechnung Naturwerksteinarbeiten
+		// VOB/C DIN 18352 - Abrechnung Fliesen und Plattenarbeiten
+		// VOB/C DIN 18363 - Abrechnung Malerarbeiten
+		// VOB/C DIN 18366 - Abrechnung Tapezierarbeiten
+		"id": "345",
+		"name": "Innenwandbekleidungen",
+		"tags": [
+			"Bekleidungen an Wänden und Stützen",
+			"Putz",
+			"Dichtungsschicht",
+			"Dämmschicht",
+			"Schutzschicht"
+		]
+	},
+	{
+		"id": "346",
+		"name": "Innenwandelemente",
+		"tags": [
+			"Elementierte Wände",
+			"Faltwand",
+			"Schiebewand",
+			"Sanitärtrennwand",
+			"Verschläge Keller"
+		]
+	},
+	{
+		"id": "349",
+		"name": "Sonstiges zu KG 340",
+		"tags": [
+			"Gitter",
+			"Geländer",
+			"Stoßabweiser",
+			"Handlauf",
+			"Berührungsschutz",
+			"Wandschlitze"
+		]
+	},
+	// 350 DECKEN
+	{
+		// Aufmaß und Abrechnung Betonarbeiten: VOB/C ATV DIN 18331
+		"id": "351",
+		"name": "Deckenkonstruktionen",
+		"tags": [
+			"Ortbetondecke",
+			"Filigrandecke",
+			"Einfeldplatte",
+			"Massiv-Fertigteil-Deckenplatte",
+			"Spannbetonhohlplatten",
+			"Hohlsteindecke",
+			"Ziegelhohlkörperdecke",
+			"Porenbetondecken",
+			"Leichtbetondecken",
+			"Stahlbetonunterzug",
+			"Stahlbetonüberzug",
+			"Plattenbalken",
+			"Betonstahl",
+			"Stahlträger",
+			"Deckenrandschalung",
+			"Balkonplatte",
+			"Ringbalken",
+			"Ortbetontreppe",
+			"Fertigteiltreppe",
+			"Stahltreppe"
+		]
+	},
+	{
+		"id": "352",
+		"name": "Deckenöffnungen",
+		"tags": [
+			"Flachdachfenster",
+			"Oberlicht"
+		]
+	},
+	{
+		// VOB/C DIN 18352 - Abrechnung Fliesen Plattenarbeiten
+		// VOB/C DIN 18356 - Abrechnung Parkettarbeiten
+		// VOB/C DIN 18353 - Abrechnung Estricharbeiten
+		// VOB/C DIN 18332 - Abrechnung Naturwerksteinarbeiten
+		"id": "353",
+		"name": "Deckenbeläge auf Decken",
+		"tags": [
+			"Bodenbeläge",
+			"Fliesen",
+			"Parkett",
+			"Laminat",
+			"Kunststoff",
+			"Linoleum",
+			"Kautschuk",
+			"Kork",
+			"Textile Beläge",
+			"Natursteinplatten",
+			"Betonwerkstein",
+			"Sockelleisten",
+			"Estriche und Hohlraumböden",
+			"Trockenestrich",
+			"Dämmschicht",
+			"Folie",
+			"Abdichtung unter Estrich"
+		]
+	},
+	{
+		"id": "354",
+		"name": "Deckenbekleidungen unter Decken",
+		"tags": [
+			"Unterdeckenbekleidung",
+			"Unterdeckendämmung",
+			"Deckenputz",
+			"Rohrdurchführung",
+			"Perimeterdämmung",
+			"Betonsauberkeitsschicht",
+			"Sohlplatte"
+		]
+	},
+	{
+		"id": "355",
+		"name": "Elementierte Deckenkonstruktionen",
+		"tags": []
+	},
+	{
+		"id": "359",
+		"name": "Decken, sonstiges",
+		"tags": [
+			"Balkon- , Loggien- und Terrassengeländer",
+			"Treppengeländer",
+			"Boden- und Einschubtreppe",
+			"Leiter",
+			"Sachachtabdeckungen",
+			"Eingangsmatte",
+			"Abtretrost und Schmutzfangbelag",
+			"Kernbohrung",
+			"Betonsägeschnitt",
+			"Deckendurchbruch",
+			"Anschweißplatte für Geländer"
+		]
+	},
+	// 360 DÄCHER
+	{
+		// VOB/C DIN 18334 - Abrechnung von Zimmer- + Holzrahmenbau
+		"id": "361",
+		"name": "Dachkonstruktionen",
+		"tags": [
+			"Kehlbalken",
+			"Pfette",
+			"Sattel-, Walm-, Krüppelwalm, Mansarden-, Pultdach",
+			"Flachdach",
+			"Abbund",
+			"Brandschutzbeschichtung",
+			"Windrispenverband",
+			"Zwischensparrendämmung"
+		]
+	},
+	{
+		"id": "362",
+		"name": "Dachöffnungen",
+		"tags": [
+			"Dachluke",
+			"Dachfenster",
+			"Dachflächen-Wohnraumfenster",
+			"Lichtkuppel"
+		]
+	},
+	{
+		"id": "363",
+		"name": "Öffnungen, Umrahmungen",
+		"tags": [
+			"Auswechselung",
+			"Wechsel",
+			"Umrahmung"
+		]
+	},
+	{
+		"id": "364",
+		"name": "Beläge auf Dachkonstruktionen",
+		"tags": [
+			"Dachlatte",
+			"Eternitpfette",
+			"Konterlattung"
+		]
+	},
+	{
+		"id": "365",
+		"name": "Elementierte Dachkonstruktionen",
+		"tags": [
+			"Dachgaube"
+		]
+	},
+	{
+		"id": "366",
+		"name": "Lichtschutz",
+		"tags": [
+			"Rollladen",
+			"Jalousie"
+		]
+	},
+	{
+		// VOB/C 18338 - Abrechnung von Dachdeckerarbeiten
+		// VOB/C 18339 - Abrechnung von Klempnerarbeiten
+		"id": "369",
+		"name": "Sonstiges zu KG 360",
+		"tags": [
+			"Laufbohle",
+			"Geländer",
+			"Gitter",
+			"Schneefang",
+			"Dachleiter"
+		]
+	},
+	// 370 INFRASTRUKTURANLAGEN
+	// Kosten eigenständiger Bauwerke von Infrastrukturanlagen für den Straßen-, Schienen- und Flugverkehr, 
+	// den Wasserbau sowie die Ver- und Entsorgung
+	// 371 Anlagen für den Straßenverkehr
+	// 372 Anlagen für den Schienenverkehr
+	// 373 Anlagen für den Flugverkehr
+	// 374 Anlagen des Waserbaus                                              
+	// 375 Anlagen der Abwasserentsorgung
+	// 376 Anlagen der Wasserversorgung
+	// 377 Anlagen der Energieversorgung
+	// 378 Anlagen der Abfallentsorgung
+	// 379 Sonstiges zu KG 370
+	//
+	// 380 BAUKONSTRUKTIVE EINBAUTEN
+	{
+		"id": "381",
+		"name": "Allgemeine Einbauten",
+		"tags": [
+			"Einbauten allgemeiner Zweckbestimmung",
+			"Einbaumöbel",
+			"Sitz- und Liegemöbel",
+			"Gestühl",
+			"Podien",
+			"Tisch",
+			"Theke",
+			"Schrank",
+			"Garderobe",
+			"Regal",
+			"Einbauküche"
+		]
+	},
+	{
+		"id": "382",
+		"name": "Besondere Einbauten",
+		"tags": [
+			"Einbauten besonderer Zweckbestimmung",
+			"Altäre in Kirchen",
+			"Display-Wände in Verkaufsstätten",
+			"Einbau-Sportgeräte in Sporthallen",
+			"Gleisanlagen",
+			"Werkbänke"
+		]
+	},
+	{
+		"id": "383",
+		"name": "Landschaftsgestalterische Einbauten",
+		"tags": []
+	},
+	{
+		"id": "384",
+		"name": "Mechanische Einbauten",
+		"tags": []
+	},
+	{
+		"id": "385",
+		"name": "Einbauten in Konstruktionen des Ingenieurbaus",
+		"tags": [
+			"Abdichtungen und Dränagen in Stauanlagen, Dämmen und Deponien"
+		]
+	},
+	{
+		"id": "386",
+		"name": "Orientierungs- und Informationssysteme",
+		"tags": [
+			"Orientierung und Information",
+			"Flucht und Rettungswegplan",
+			"Etagenverteiler",
+			"Raumbeschilderung"
+		]
+	},
+	{
+		"id": "387",
+		"name": "Schutzeinbauten",
+		"tags": [
+			"Bunker"
+		]
+	},
+	{
+		"id": "389",
+		"name": "Sonstiges zu KG 370",
+		"tags": [
+			"Rauchschutzvorhang"
+		]
+	},
+	// 390 SONSTIGE BAUKOSTEN 
+	{
+		"id": "391",
+		"name": "Baustelleneinrichtung",
+		"tags": [
+			"Bauzaun",
+			"Bauschild",
+			"Baustellenverkehrsschild",
+			"Bauzaun",
+			"Sichtschutzzaun",
+			"Schutzgeländer",
+			"Lagerfläche",
+			"Baustromverteiler",
+			"Bauwasseranschluss",
+			"WC-Anlage",
+			"Lager- und Bürocontainer",
+			"Bauschuttcontainer",
+			"Baukran",
+			"Winterbau"
+		]
+	},
+	{
+		// VOB/C DIN 18451 - Abrechnung Gerüstarbeiten
+		"id": "392",
+		"name": "Gerüste",
+		"tags": [
+			"Auflagergerüst",
+			"Arbeitsgerüst",
+			"Fassadengerüst",
+			"Hängebühne",
+			"Gerüstverbreiterung",
+			"Kletterbühne",
+			"Rollgerüst",
+			"Schutzgerüst",
+			"Standgerüst",
+			"Traggerüst",
+			"Wetterschutzgerüst"
+		]
+	},
+	{
+		"id": "393",
+		"name": "Sicherungsmaßnahmen",
+		"tags": [
+			"Arbeitsschutz"
+		]
+	},
+	{
+		// Abbrucharbeiten VOB/C DIN 18459
+		"id": "394",
+		"name": "Abbruchmaßnahmen",
+		"tags": [
+			"Abbruch",
+			"Demontage",
+			"Zwischenlagern von Baustoffen"
+		]
+	},
+	{
+		"id": "395",
+		"name": "Instandsetzungen",
+		"tags": []
+	},
+	{
+		"id": "396",
+		"name": "Materialentsorgung",
+		"tags": [
+			"Entsorgung",
+			"Recycling",
+			"Deponierung"
+		]
+	},
+	{
+		"id": "397",
+		"name": "Zusätzliche Maßnahmen",
+		"tags": [
+			"Forderung des Wasser-, Landschafts-, Lärm- und Erschütterungsschutzes",
+			"Schlechtwetter",
+			"Winterbauschutz",
+			"Baustellenheizung",
+			"Schneeräumung"
+		]
+	},
+	{
+		"id": "398",
+		"name": "Provisorische Baukonstruktionen",
+		"tags": [
+			"temporäre Maßnahmen bis zur Fertigstellung"
+		]
+	},
+	{
+		"id": "399",
+		"name": "Sonstiges zu KG 390",
+		"tags": []
+	},
+	// 400 BAUWERK - TECHNISCHE ANLAGEN
+	// 410 KOSTEN DER ABWASSER-, WASSER- UND GASANLAGEN
+	{
+		"id": "411",
+		"name": "Abwasseranlagen",
+		"tags": [
+			"Abwasser-Installationen für Bäder, Duschen, Küchen",
+			"Revisionsschacht für Grundleitungen",
+			"Pumpensumpf",
+			"GFK-Sammelbehälter",
+			"Schmutzwasserpumpe",
+			"Fäkalienhebeanlage",
+			"Abwasserhebe- und Pumpanlage",
+			"Bodeneinlauf",
+			"Geruchsverschluss",
+			"Rückstausicherung",
+			"Abscheider und Kleinkläranlage",
+			"Abwassersammelanlage",
+			"Abwasserbehandlungsanlage",
+			"Ablauf und Entwässerungsrinne für Dachterrassen, Hofbefestigungen, Flachdächer",
+			"Abwasseraufbereitungs- und Regenwassernutzungsanlage",
+			"Zisterne",
+			"Sickermulde",
+			"Rigole"
+		]
+	},
+	{
+		"id": "412",
+		"name": "Wasseranlagen",
+		"tags": [
+			"Wassergewinnungs-, Aufbereitungs- und Druckerhöhungsanlagen",
+			"Rohrleitung",
+			"dezentraler Wassererwärmer",
+			"Sanitärobjekte",
+			"Wanne",
+			"Waschbecken",
+			"Spüle",
+			"Warmwasserbereiter",
+			"Gasboiler",
+			"Elektro-Durchlauferhitzer",
+			"Kollektoranlage auf Dach",
+			"Wasserleitungen"
+		]
+	},
+	{
+		"id": "413",
+		"name": "Gasanlagen",
+		"tags": [
+			"Gaslagerung und -erzeugungsanlagen",
+			"Übergabestation",
+			"Druckregelanlage",
+			"Gasleitungen"
+		]
+	},
+	{
+		"id": "419",
+		"name": "Sonstiges zu KG 410",
+		"tags": [
+			"Installationsblöcke",
+			"Sanitärzellen"
+		]
+	},
+	// 430 LUFTTECHNISCHE ANLAGEN
+	{
+		"id": "431",
+		"name": "Lüftungsanlagen",
+		"tags": [
+			"Lüftungsanlage",
+			"Klimaanlage",
+			"Rauch-Wärmeabzugsanlage",
+			"Luftleitungen",
+			"Klimadecke",
+			"Raumkühlfläche",
+			"Wärmerückgewinnung",
+			"Wärmepumpe",
+			"Warmluftheizung",
+			"Dämmung an technischen Anlagen",
+			"Mess- und Regeltechnik Abluftanlagen",
+			"Zuluftanlage",
+			"mechanische Entrauchungsanlage",
+			"Luftbefeuchtungsanlage",
+			"Luftentfeuchtungsanlage",
+			"Luftfilteranlage",
+			"Luftreinigungsanlage",
+			"Luftschleieranlage",
+			"Kontrollierte Wohnungslüftung",
+			"Kühlturm"
+		]
+	},
+	{
+		"id": "432",
+		"name": "Teilklimaanlagen",
+		"tags": []
+	},
+	{
+		"id": "433",
+		"name": "Klimaanlagen",
+		"tags": [
+			"Anlagen mit vier thermodynamischen Luftbehandlungsfunktionen",
+			"Klimazentralgerät",
+			"Klimazentrale"
+		]
+	},
+	{
+		"id": "434",
+		"name": "Kälteanlagen",
+		"tags": [
+			"Kälteanlagen für lufttechnische Anlagen: Kälteerzeugungs- und Rückkühlanlagen einschließlich Pumpen, Verteiler und Rohrleitungen"
+		]
+	},
+	{
+		"id": "439",
+		"name": "Lufttechnische Anlagen, sonstiges",
+		"tags": [
+			"Lüftungsdecke",
+			"Luftleitungen",
+			"Kühldecke",
+			"Abluftfenster",
+			"Installationsdoppelböden"
+		]
+	},
+	// 500 AUSSENANLAGEN   
+	// 510 ERDBAU
+	{
+		"id": "511",
+		"name": "Herstellung Oberbodenarbeiten",
+		"tags": [
+			"Oberbodensicherung",
+			"Erdmieten",
+			"Oberbodenmieten",
+			"Böschungssicherung gegen Abrutschungen und Abspülungen",
+			"Untergrundprofilierung"
+		]
+	},
+	{
+		"id": "512",
+		"name": "Umschließung",
+		"tags": [
+			"Verbau und Sicherung von Baugruben, Dämmen, Wällen und Einschnitten",
+			"Verankerung",
+			"Absteifung"
+		]
+	},
+	{
+		"id": "513",
+		"name": "Wasserhaltung",
+		"tags": [
+			"Grund- und Schichtenwasserbeseitigung"
+		]
+	},
+	{
+		"id": "514",
+		"name": "Vortrieb",
+		"tags": [
+			"Erdausbruch unter Tage einschließlich Stützung, Sicherung"
+		]
+	},
+	{
+		"id": "519",
+		"name": "Sonstiges zu KG 510",
+		"tags": []
+	},
+	// 520 GRÜNDUNG-UNTERBAU
+	{
+		"id": "521",
+		"name": "Baugrundverbesserung",
+		"tags": [
+			"Bodenaustausch",
+			"Verdichtung",
+			"Einpressung",
+			"Stützmaßnahmen",
+			"Bodenlockerung",
+			"Verlegung von Geotextilien"
+		]
+	},
+	{
+		"id": "522",
+		"name": "Flachgründungen und Bodenplatten",
+		"tags": [
+			"Einzelfundament",
+			"Streifenfundament",
+			"Fundament-, Sohl- und Bodenplatten"
+		]
+	},
+	{
+		"id": "523",
+		"name": "Tiefgründung",
+		"tags": [
+			"Pfahlgründung",
+			"Brunnengründung"
+		]
+	},
+	{
+		"id": "524",
+		"name": "Beläge",
+		"tags": [
+			"Beläge auf Sohl-, Boden- und Fundamentplatten (z. B. Estriche, Dichtungs-, Dämm-, Schutz- und Nutzschichten)"
+		]
+	},
+	{
+		"id": "525",
+		"name": "Abdichtungen und Bekleidungen",
+		"tags": [
+			"Konstruktionsschichten unterhalb der Sohl-, Boden- und Fundamentplatte",
+			"Abdichtungen und Bekleidungen der Gründung, einschließlich Dämmungen sowie Filter-, Trenn-, Sauberkeits- und Schutzschichten"
+		]
+	},
+	{
+		"id": "526",
+		"name": "Dränagen",
+		"tags": [
+			"Schacht",
+			"Packung",
+			"Pumpensumpf",
+			"Tiefenentwässerung",
+			"Oberflächenentwässerung"
+		]
+	},
+	{
+		"id": "529",
+		"name": "Sonstiges zu KG 520",
+		"tags": []
+	},
+	// 530 OBERBAU-DECKSCHICHTEN
+	{
+		"id": "531",
+		"name": "Wege",
+		"tags": [
+			"Oberbau und Deckschichten von Flächen für den Fuß- und Radfahrverkehr",
+			"Entwässerungsrinne",
+			"Wege für Forst- und Landwirtschaft"
+		]
+	},
+	{
+		"id": "532",
+		"name": "Straßen",
+		"tags": [
+			"Oberbau- und Deckschichten von Flächen für den Leicht- und Schwerverkehr",
+			"Auto",
+			"Fußgängerzone mit Anlieferungsverkehr"
+		]
+	},
+	{
+		"id": "533",
+		"name": "Plätze, Höfe und Terrassen",
+		"tags": [
+			"Oberbau- und Deckschichten von gestalteten Platzflächen, Innenhöfen, Böschungbefestigungen, Terrassen mit Pflanztrögen und Sitzplätzen"
+		]
+	},
+	{
+		"id": "534",
+		"name": "Stellplätze",
+		"tags": [
+			"Oberbau- und Deckschichten von Flächen für den ruhenden Verkehr",
+			"Auto",
+			"Parkplatz"
+		]
+	},
+	{
+		"id": "535",
+		"name": "Sportplatzflächen",
+		"tags": [
+			"Oberbau- und Deckschichten von Sportplatzflächen"
+		]
+	},
+	{
+		"id": "536",
+		"name": "Spielplatzflächen",
+		"tags": [
+			"Oberbau- und Deckschichten von Spielplatzflächen",
+			"Kinderspielplatz"
+		]
+	},
+	{
+		"id": "537",
+		"name": "Gleisanlagen",
+		"tags": [
+			"Gleise",
+			"Weichen",
+			"Gleisabschlüsse",
+			"Gleisschwellen"
+		]
+	},
+	{
+		"id": "538",
+		"name": "Flugverkehrsflächen",
+		"tags": [
+			"Oberbau und Deckschichten von Flugverkehrsflächen",
+			"Start- und Landebahn",
+			"Hubschrauberlandeplatz"
+		]
+	},
+	{
+		"id": "539",
+		"name": "Sonstiges zu KG 530",
+		"tags": [
+			"Schutzplanken",
+			"Leitpfosten"
+		]
+	},
+	// 540 BAUKONSTRUKTION-AUSSENANLAGEN
+	{
+		"id": "541",
+		"name": "Einfriedungen",
+		"tags": [
+			"Einfassungen",
+			"dichte Hecke",
+			"Zaun",
+			"Mauern",
+			"Schutzgitter",
+			"Schrankenanlage"
+		]
+	},
+	{
+		"id": "542",
+		"name": "Schutzkonstruktionen",
+		"tags": [
+			"Lärm-, Schall- und Sichtschutzwände, Pylone und Pfeiler",
+			"Konstruktionen für Sonnenschutz einschließlich Antrieben"
+		]
+	},
+	{
+		"id": "543",
+		"name": "Wandkonstruktionen",
+		"tags": [
+			"Stütz- und Schwergewichtsmauer"
+		]
+	},
+	{
+		"id": "544",
+		"name": "Rampen, Treppen, Tribünen",
+		"tags": [
+			"Treppen und Rampen einschließlich Geländer, Handlauf und Absturzsicherung"
+		]
+	},
+	{
+		"id": "545",
+		"name": "Überdachungen",
+		"tags": [
+			"Überdachung",
+			"Unterstand",
+			"Wetterschutzkonstruktion",
+			"Pergola"
+		]
+	},
+	{
+		"id": "546",
+		"name": "Stege",
+		"tags": [
+			"Stege und kleinere Brücken für den Fuß- und Radverkehr",
+			"Bootssteg"
+		]
+	},
+	{
+		"id": "547",
+		"name": "Kanal- und Schachtkonstruktionen",
+		"tags": [
+			"Rohrkanäle und -schächte, Leerrohre für technische Anlagen"
+		]
+	},
+	{
+		"id": "548",
+		"name": "Wasserbecken",
+		"tags": [
+			"Wasserbecken",
+			"Schwimmbecken",
+			"Schwimmteiche"
+		]
+	},
+	{
+		"id": "549",
+		"name": "Sonstiges zur KG 540",
+		"tags": []
+	},
+	// 540 TECHNISCHE ANLAGEN
+	{
+		"id": "551",
+		"name": "Abwasseranlagen",
+		"tags": [
+			"Abwasserleitung",
+			"häusliche Kläranlagen",
+			"Oberflächen- und Bauwerksentwässerungsanlagen",
+			"Sammelgrube",
+			"Abscheider",
+			"Hebeanlage"
+		]
+	},
+	{
+		"id": "552",
+		"name": "Wasseranlagen",
+		"tags": [
+			"Brunnenanlage",
+			"Zisterne",
+			"Druckerhöhungsanlage",
+			"Wasserversorgungsleitung",
+			"Löschwasseranlage",
+			"Beregnungsanlage"
+		]
+	},
+	{
+		"id": "553",
+		"name": "Anlagen für Gase und Flüssigkeiten",
+		"tags": [
+			"Leitungen für Gase und wassergefährdende Flüssigkeiten",
+			"Flüssiggasanlagen"
+		]
+	},
+	{
+		"id": "554",
+		"name": "Wärmeversorgungsanlagen",
+		"tags": [
+			"Wärmeerzeugungsanlagen",
+			"Wärmeversorgungsleitungen",
+			"Freiflächen- und Rampenheizungen"
+		]
+	},
+	{
+		"id": "555",
+		"name": "Raumlufttechnische Anlagen",
+		"tags": [
+			"Anlagenteile der Raumlufttechnik (z. B. Außenluftansaugung, Fortluftausblas, Erdwärmetauscher, Kälteversorgung)"
+		]
+	},
+	{
+		"id": "556",
+		"name": "Elektrische Anlagen",
+		"tags": [
+			"Elektrische Anlagen für Starkstrom (z. B. für Stromversorgungsleitungen, Freilufttrafostationen, Eigenstromerzeugungsanlagen)",
+			"Außenbeleuchtungsanlagen",
+			"Beleuchtungsanlagen für Wege, Straßen, Plätze und Flächen für den ruhenden Verkehr",
+			"Flutlichtanlagen",
+			"Fahrleitungsanlagen",
+			"Masten und Befestigungen"
+		]
+	},
+	{
+		"id": "557",
+		"name": "Kommunikations-, sicherheits- und informationstechnische Anlagen, Automation",
+		"tags": [
+			"Leitungsnetze",
+			"Beschallungsanlagen",
+			"Zeitdienstanlagen",
+			"Verkehrssignalanlagen",
+			"elektronische Anzeigetafeln",
+			"Objektsicherungsanlagen",
+			"Parkleitsysteme"
+		]
+	},
+	{
+		"id": "558",
+		"name": "Nutzungsspezifische Anlagen",
+		"tags": [
+			"Medienversorgungsanlagen, Tankanlagen, badetechnische Anlagen"
+		]
+	},
+	{
+		"id": "559",
+		"name": "Sonstiges zur KG 550",
+		"tags": []
+	},
+	// 560 EINBAUTEN IN AUSSENANLAGEN UND FREIFLÄCHEN
+	{
+		"id": "561",
+		"name": "Allgemeine Einbauten",
+		"tags": [
+			"Wirtschaftsgegenstände",
+			"Sitzmöbel",
+			"Fahrradständer",
+			"Pflanzbehälter",
+			"Abfallbehälter",
+			"Fahnenmaste",
+			"Absperrpoller",
+			"Stoßabweiser"
+		]
+	},
+	{
+		"id": "562",
+		"name": "Besondere Einbauten",
+		"tags": [
+			"Einbauten in Spielplätzen",
+			"Spielgeräte",
+			"Klettereinrichtungen",
+			"Einbauten für Sportanlagen, Freizeitanlagen und Tiergehege"
+		]
+	},
+	{
+		"id": "563",
+		"name": "Orientierungs- und Informationssysteme",
+		"tags": [
+			"Einbauten, die der Orientierung und Information dienen (z. B. für Flucht, Rettung, Orientierung, Werbung)"
+		]
+	},
+	{
+		"id": "569",
+		"name": "Sonstiges zur KG 560",
+		"tags": []
+	},
+	// 570 Vegetationsflächen
+	{
+		"id": "571",
+		"name": "Vegetationstechnische Bodenbearbeitung",
+		"tags": [
+			"Vorbereitung von Pflanzflächen",
+			"Oberbodenauftrag",
+			"Oberboden auflockern",
+			"Fräsen",
+			"Planieren",
+			"Bodenverbesserung",
+			"Düngung",
+			"Bodenhilfsstoffe",
+			"Zwischenbegrünungen"
+		]
+	},
+	{
+		"id": "572",
+		"name": "Sicherungsbauweisen",
+		"tags": [
+			"Vegetationsstücke",
+			"Geotextilien",
+			"Flechtwerk",
+			"Böschungssicherungen",
+			"Flächensicherungen"
+		]
+	},
+	{
+		"id": "573",
+		"name": "Pflanzflächen",
+		"tags": [
+			"Pflanzung von Gehölzen und Stauden",
+			"Feinplanum",
+			"Fertigstellungspflege",
+			"Ausnahme Begrünung unterbauter Flächen (siehe KG 575)"
+		]
+	},
+	{
+		"id": "574",
+		"name": "Rasen und Ansaaten",
+		"tags": [
+			"Aussaat von Saatgut",
+			"Feinplanum",
+			"Fertigstellungspflege",
+			"Verlegung von Fertigrasen"
+		]
+	},
+	{
+		"id": "579",
+		"name": "Sonstiges zu KG 570",
+		"tags": [
+			"Entwicklungspflege von Pflanz- und Saatflächen und begrünten unterbauten Flächen"
+		]
+	},
+	// 580 WASSERFLÄCHEN
+	{
+		"id": "581",
+		"name": "Befestigungen",
+		"tags": [
+			"Tragschichten einschließlich Bodensubstraten, Kies- und Schotterschichten sowie Wasserbausteinbettungsschichten, soweit nicht unter anderen Kostengruppen erfasst"
+		]
+	},
+	{
+		"id": "582",
+		"name": "Abdichtungen",
+		"tags": [
+			"Planum, Planumsschutzschichten, Frostschutzschichten, Bewehrungs-, Trenn-, Filter- und Dichtungsschichten"
+		]
+	},
+	{
+		"id": "583",
+		"name": "Bepflanzungen",
+		"tags": [
+			"Unterwasser- und Wasserpflanzen, Röhrichte, Bepflanzungen der Wasserwechselzonen"
+		]
+	},
+	{
+		"id": "589",
+		"name": "Sonstiges zur KG 580",
+		"tags": [
+			"Entwicklungspflege von Bepflanzungen"
+		]
+	},
+	// 590 SONSTIGE MASSNAHMEN FÜR AUSSENANLAGEN UND FREIFLÄCHEN
+	{
+		"id": "591",
+		"name": "Baustelleneinrichtung",
+		"tags": [
+			"Einrichten, Vorhalten, Betreiben und Räumen der übergeordneten Baustelleneinrichtung für Außenanlagen und Freiflächen (z. B. Material- und Geräteschuppen, Lager-, Wasch-, Toiletten- und Aufenthaltsräume, Bauwagen, Misch- und Transportanlagen, Energie- und Bauwasseranschlüsse, Baustraßen, Lager- und Arbeitsplätze, Verkehrssicherungen, Abdeckungen, Bauschilder, Bau- und Schutzzäune, Baubeleuchtung, Baustrom, Bauwasser)"
+		]
+	},
+	{
+		"id": "592",
+		"name": "Gerüste",
+		"tags": [
+			"Auf-, Um-, und Abbauen sowie Vorhalten von Gerüsten"
+		]
+	},
+	{
+		"id": "593",
+		"name": "Sicherungsmaßnahmen",
+		"tags": [
+			"Sicherungsmaßnahmen an bestehenden baulichen Anlagen (z. B. Unterfangungen, Abstützungen)"
+		]
+	},
+	{
+		"id": "594",
+		"name": "Abbruchmaßnahmen",
+		"tags": [
+			"Abbruch- und Demontagearbeiten einschließlich Zwischenlagern wiederverwendbarer Teile, Abfuhr des Abbruchmaterials, soweit nicht in anderen Kostengruppen erfasst"
+		]
+	},
+	{
+		"id": "595",
+		"name": "Instandsetzungen",
+		"tags": [
+			"Maßnahmen zur Wiederherstellung des zum bestimmungsgemäßen Gebrauch geeigneten Zustandes, soweit nicht in anderen Kostengruppen erfasst"
+		]
+	},
+	{
+		"id": "596",
+		"name": "Materialentsorgung",
+		"tags": [
+			"Entsorgung von Materialien und Stoffen, die bei dem Abbruch, bei der Demontage und bei dem Ausbau von Außenanlagen und Freiflächen oder bei der Erstellung einer Bauleistung anfallen zum Zweck des Recyclings oder der Deponierung"
+		]
+	},
+	{
+		"id": "597",
+		"name": "Zusätzliche Maßnahmen",
+		"tags": [
+			"Zusätzliche Maßnahmen bei der Erstellung von Außenanlagen und Freiflächen (z. B. Schutz von Personen und Sachen sowie betriebliche Sicherungsmaßnahmen beim Bauen unter Betrieb); Reinigung vor Inbetriebnahme; Maßnahmen aufgrund von Forderungen des Wasser-, Landschafts-, Lärm- und Erschütterungsschutzes während der Bauzeit; Schlechtwetter und Winterbauschutz, Erwärmung, Schneeräumung"
+		]
+	},
+	{
+		"id": "598",
+		"name": "Provisorische Außenanlagen und Freiflächen",
+		"tags": [
+			"Erstellung, Betrieb und Beseitigung provisorischer Außenanlagen und Freiflächen, Anpassung der Außenanlagen und Freiflächen bis zur Inbetriebnahme der endgültigen Außenanlagen und Freiflächen"
+		]
+	},
+	{
+		"id": "599",
+		"name": "Sonstiges zur KG 590",
+		"tags": []
+	},
+	// 600 AUSSTATTUNG UND KUNSTWERKE
+	{
+		"id": "610",
+		"name": "Allgemeine Ausstattung",
+		"tags": [
+			"Möbel und Geräte (z. B. Sitz- und Liegemöbel, Schränke, Regale, Tische); Textilien (z. B. Vorhänge, Wandbehänge, lose Teppiche, Wäsche); Hauswirtschafts-, Garten- und Reinigungsgeräte"
+		]
+	},
+	{
+		"id": "620",
+		"name": "Besondere Ausstattung",
+		"tags": [
+			"Ausstattungsgegenstände, die der besonderen Zweckbestimmung eines Objekts dienen (z. B. wissenschaftliche , medizinische, technische Geräte)"
+		]
+	},
+	{
+		"id": "630",
+		"name": "Informationstechnische Ausstattung",
+		"tags": [
+			"Digitale Geräte",
+			"Server",
+			"PC",
+			"Drucker",
+			"periphere Geräte"
+		]
+	},
+	// 640 KÜNSTLERISCHE AUSSTATTUNG
+	{
+		"id": "641",
+		"name": "Kunstobjekte",
+		"tags": [
+			"Kunstwerke",
+			"Skulpturen",
+			"Objekte",
+			"Gemälde",
+			"Möbel",
+			"Antiquitäten",
+			"Altäre",
+			"Taufbecken"
+		]
+	},
+	{
+		"id": "642",
+		"name": "Künstlerische Gestaltung des Bauwerks",
+		"tags": [
+			"Künstlerisch gestaltete Teile des Bauwerks (z. B. Malereien, Reliefs, Mosaiken, künstlerische Glas-, Schmiede-, Steinmetzarbeiten)"
+		]
+	},
+	{
+		"id": "643",
+		"name": "Künstlerische Gestaltung der Außenanlagen und Freiflächen",
+		"tags": [
+			"Künstlerisch gestaltete Teile der Außenanlagen und Freiflächen (z. B. Malereien, Reliefs, Mosaiken, künstlerische Glas-, Schmiede-, Steinmetzarbeiten)"
+		]
+	},
+	{
+		"id": "649",
+		"name": "Sonstiges zur KG 640",
+		"tags": []
+	},
+	{
+		"id": "690",
+		"name": "Sonstige Ausstattung",
+		"tags": [
+			"Schilder",
+			"Wegweiser",
+			"Informations- und Werbetafeln"
+		]
+	},
+	// 700 BAUNEBENKOSTEN
+	// 710 BAUHERRENAUFGABEN
+	{
+		"id": "711",
+		"name": "Projektleitung",
+		"tags": [
+			"Zielvorgaben, Überwachung und Vertretung der Bauherreninteressen"
+		]
+	},
+	{
+		"id": "712",
+		"name": "Bedarfsplanung",
+		"tags": [
+			"Bedarfs-, Betriebs- und Organisationsplanung beispielsweise zur betrieblichen Organisation, zur Arbeitsplatzgestaltung, zur Erstellung von Raum- und Funktionsprogrammen, zur betrieblichen Ablaufplanung und zur Inbetriebnahme des Objekts"
+		]
+	},
+	{
+		"id": "713",
+		"name": "Projektsteuerung",
+		"tags": [
+			"Projektsteuerungsleistungen sowie andere Leistungen, die sich mit der übergeordneten Steuerung und Kontrolle von Projektorganisation, Terminen, Kosten, Qualitäten und Quantitäten befassen"
+		]
+	},
+	{
+		"id": "714",
+		"name": "Sicherheits- und Gesundheitsschutzkoordination",
+		"tags": [
+			"SiGeKo",
+			"Planungs- und Koordinationsleistungen für die Arbeitssicherheit und den Gesundheitsschutz auf der Baustelle"
+		]
+	},
+	{
+		"id": "719",
+		"name": "Sonstiges zur KG 710",
+		"tags": [
+			"Verhandlungsverfahren",
+			"wettbewerblicher Dialog"
+		]
+	},
+	{
+		"id": "715",
+		"name": "Vergabeverfahren",
+		"tags": [
+			"Baubetreuung, Umweltbaubegleitung, Rechtsberatung, Steuerberatung, Streitbeilegung (außergerichtliche und gerichtliche), Nachhaltigkeitskoordinierung bzw. -auditierung, Management zur Inbetriebnahme des Objekts"
+		]
+	},
+	// 720 Vorbereitung der Objektplanung
+	{
+		"id": "721",
+		"name": "Untersuchungen",
+		"tags": [
+			"Standortanalysen, Baugrundgutachten, Gutachten für die Verkehrsanbindung, Bestandsanalysen (z. B. Untersuchungen zum Gebäudebestand bei Umbau- und Modernisierungsmaßnahmen); Untersuchungen im Rahmen von artenschutzrechtlichen Prüfungen floristische und faunistische Untersuchungen; Untersuchungen zu Altlasten, Kampfmitteln und kulturhistorischen Funden"
+		]
+	},
+	{
+		"id": "722",
+		"name": "Wertermittlungen",
+		"tags": [
+			"Gutachten zur Ermittlung von Gebäudewerten, soweit nicht in der KG 126 erfasst"
+		]
+	},
+	{
+		"id": "723",
+		"name": "Städtebauliche Leistungen",
+		"tags": [
+			"Bauleitplanung einschließlich Umweltbericht und städtebaulicher Entwurf, städtebauliche Rahmenpläne"
+		]
+	},
+	{
+		"id": "724",
+		"name": "Landschaftsplanerische Leistungen",
+		"tags": [
+			"Landschaftsplan, Grünordnungsplan, Biotopvernetzungsplanungen, Umweltprüfung, Umweltverträglichkeitsstudie, landschaftspflegerische Begleitplanung, Eingriffs- und Ausgleichsplanung"
+		]
+	},
+	{
+		"id": "725",
+		"name": "Wettbewerbe Leistungen",
+		"tags": [
+			"Durchführung von Ideenwettbewerben und Realisierungswettbewerben"
+		]
+	},
+	{
+		"id": "729",
+		"name": "Sonstiges zur KG 720",
+		"tags": []
+	},
+	// 730 OBJEKTPLANUNG
+	{
+		"id": "731",
+		"name": "Gebäude und Innenräume",
+		"tags": []
+	},
+	{
+		"id": "732",
+		"name": "Freianlagen",
+		"tags": []
+	},
+	{
+		"id": "733",
+		"name": "Ingenieurbauwerke",
+		"tags": []
+	},
+	{
+		"id": "734",
+		"name": "Verkehrsanlagen",
+		"tags": []
+	},
+	{
+		"id": "739",
+		"name": "Sonstiges zur KG 730",
+		"tags": []
+	},
+	// 740 FACHPLANUNG
+	{
+		"id": "741",
+		"name": "Tragwerksplanung",
+		"tags": []
+	},
+	{
+		"id": "742",
+		"name": "Technische Ausrüstung",
+		"tags": []
+	},
+	{
+		"id": "743",
+		"name": "Bauphysik",
+		"tags": []
+	},
+	{
+		"id": "744",
+		"name": "Geotechnik",
+		"tags": []
+	},
+	{
+		"id": "745",
+		"name": "Ingenieurvermessung",
+		"tags": [
+			"Planungs- und baubezogene vermessungstechnische Leistungen",
+			"Lageplan"
+		]
+	},
+	{
+		"id": "746",
+		"name": "Lichttechnik, Tageslichttechnik",
+		"tags": []
+	},
+	{
+		"id": "747",
+		"name": "Brandschutz",
+		"tags": []
+	},
+	{
+		"id": "748",
+		"name": "Altlasten, Kampfmittel, kulturhistorische Funde",
+		"tags": [
+			"Planungen für Altlastenbeseitigung, Kampfmittelräumung und die Sicherung kulturhistorischer Funde"
+		]
+	},
+	{
+		"id": "749",
+		"name": "Sonstiges zur KG 740",
+		"tags": [
+			"Fassadenplanung",
+			"Geothermie"
+		]
+	},
+	// 750 KÜNSTLERISCHE LEISTUNGEN
+	{
+		"id": "751",
+		"name": "Kunstwettbewerbe",
+		"tags": [
+			"Durchführung von Wettbewerben zur Erarbeitung eines Konzepts für Kunstwerke oder künstlerisch gestaltete Bauteile"
+		]
+	},
+	{
+		"id": "752",
+		"name": "Honorare",
+		"tags": [
+			"Geistig-schöpferische Leistungen für Kunstwerke oder künstlerisch gestaltete Bauteile, soweit nicht in der KG 640 erfasst"
+		]
+	},
+	{
+		"id": "759",
+		"name": "Sonstiges zur KG 750",
+		"tags": []
+	},
+	// 760 Allgemeine Baunebenkosten
+	{
+		"id": "761",
+		"name": "Gutachten und Beratung",
+		"tags": []
+	},
+	{
+		"id": "762",
+		"name": "Prüfungen, Genehmigungen, Abnahmen",
+		"tags": [
+			"Prüfungen, Genehmigungen und Abnahmen (z. B. Prüfung der Tragwerksplanung, Konformitätsprüfungen von Nachhaltigkeitsauditierungen)"
+		]
+	},
+	{
+		"id": "763",
+		"name": "Bewirtschaftungskosten",
+		"tags": [
+			"Baustellenbewachung, Nutzungsentschädigungen während der Bauzeit; Gestellung des Baustellenbüros für Planer und Bauherrn sowie dessen Beheizung, Beleuchtung und Reinigung"
+		]
+	},
+	{
+		"id": "764",
+		"name": "Bemusterungskosten",
+		"tags": [
+			"Modellversuche, Musterstücke, Eignungsversuche, Eignungsmessungen"
+		]
+	},
+	{
+		"id": "765",
+		"name": "Betriebskosten nach der Abnahme",
+		"tags": [
+			"Kosten für den vorläufigen Betrieb insbesondere der technischen Anlagen nach der Abnahme bis zur Inbetriebnahme"
+		]
+	},
+	{
+		"id": "766",
+		"name": "Versicherungen",
+		"tags": [
+			"Bauherrenhaftpflichtversicherung",
+			"Bauwesenversicherung"
+		]
+	},
+	{
+		"id": "769",
+		"name": "Sonstiges zur KG 760",
+		"tags": [
+			"Vervielfältigung und Dokumentation, Versand- und Kommunikationskosten, Veranstaltungen (z. B. Grundsteinlegung, Richtfest)"
+		]
+	},
+	// 790 SONSTIGE BAUNEBENKOSTEN
+	{
+		"id": "791",
+		"name": "Bestandsdokumentation",
+		"tags": [
+			"Liegenschafts- und Gebäudebestandsdokumentation als Grundlage für die Nutzung (z. B. Vermessung, Fachdatenerhebung)"
+		]
+	},
+	{
+		"id": "799",
+		"name": "Sonstiges zur KG 790",
+		"tags": []
+	},
+	// 800 FINANZIERUNG
+	{
+		"id": "810",
+		"name": "Finanzierungsnebenkosten",
+		"tags": [
+			"Kosten für die Finanzierungsplanung und die Beschaffung von Finanzierungsmitteln, Gerichts- und Notargebühren für die mit der Finanzierung verbundenen Eintragungen und Löschungen im Grundbuch"
+		]
+	},
+	{
+		"id": "820",
+		"name": "Fremdkapitalzinsen",
+		"tags": [
+			"Zinsen für das zur Finanzierung beschaffte Fremdkapital bis zum Beginn der Nutzung"
+		]
+	},
+	{
+		"id": "830",
+		"name": "Eigenkapitalzinsen",
+		"tags": [
+			"Kalkulatorische Zinsen für das zur Finanzierung eingesetzte Eigenkapital bis zum Beginn der Nutzung"
+		]
+	},
+	{
+		"id": "830",
+		"name": "Eigenkapitalzinsen",
+		"tags": [
+			"Kalkulatorische Zinsen für das zur Finanzierung eingesetzte Eigenkapital bis zum Beginn der Nutzung"
+		]
+	},
+	{
+		"id": "840",
+		"name": "Bürgschaften",
+		"tags": [
+			"Gebühren für Zahlungsbürgschaften"
+		]
+	},
+	{
+		"id": "890",
+		"name": "Sonstige Finanzierungskosten",
+		"tags": []
+	}
+]

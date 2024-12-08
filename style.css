@@ -1,0 +1,183 @@
+/* Modern CSS Reset by https: //www.joshwcomeau.com/css/custom-css-reset/ */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+}
+
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+p {
+	text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-wrap: balance;
+}
+
+:root {
+	--light-blue: #d1e5fd;
+	--dark-blue: #1e40af;
+	--light-red: #ffe4e6;
+	--dark-red: #881337;
+	--dark-grey: #3f3f46;
+	--light-grey: #a1a1aa;
+}
+
+body {
+	font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	line-height: 1.6;
+	margin: 0;
+	padding: 20px;
+	background: #e8e8e8;
+	color: #020617;
+}
+
+#app {
+	max-width: min(600px, calc(100vw - 10px));
+	width: 100%;
+	margin: 0 auto;
+	background: #f6f6f6;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(116, 110, 110, 0.1);
+}
+
+h1 {
+	margin: 0 0 15px 0;
+	text-align: center;
+}
+
+h2 {
+	font-size: 110%;
+}
+
+.search {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	margin-bottom: 20px;
+	;
+}
+
+#search {
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+#clear-btn {
+	/* position: absolute;
+	right: 5px;
+	top: 50%;
+	transform: translateY(-50%); */
+	background: none;
+	border: none;
+	color: #888;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+
+#clear-btn:hover {
+	color: #555;
+}
+
+#results {
+	list-style: none;
+	padding: 0;
+}
+
+#results li {
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+
+	div+div {
+		margin-top: 0.8rem;
+		font-style: italic;
+		font-size: 85%;
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		align-items: center;
+		color: var(--dark-grey);
+		hyphens: auto;
+
+		.arrow {
+			flex-shrink: 0;
+			width: 7%;
+			text-align: center;
+			color: var(--light-grey)
+		}
+	}
+
+	.kgnr {
+		padding: 2px 5px;
+		margin: 0 8px 4px 0;
+		color: var(--dark-blue);
+		background-color: var(--light-blue);
+		border: solid 1px var(--dark-blue);
+		border-radius: 5px;
+	}
+
+	.unit {
+		font-size: 110%;
+		padding: 2px 5px;
+		color: var(--dark-red);
+		background-color: var(--light-red);
+		border-radius: 5px;
+	}
+
+	.type {}
+
+	.assess {}
+
+}
+
+#results li:last-child {
+	border-bottom: none;
+}
+
+.highlight {
+	background-color: #ffe45ee6;
+	font-weight: bold;
+}
