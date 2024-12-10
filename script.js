@@ -60,7 +60,6 @@ function displayResults(results, query) {
 
 			const unit = item.unit ? item.unit : ""
 			const type = item.type ? item.type : ""
-			const assess = item.assess ? item.assess : ""
 			// Highlight fields
 			const id = highlightMatch(item.id, matches, "id");
 			const name = highlightMatch(item.name, matches, "name");
@@ -76,11 +75,11 @@ function displayResults(results, query) {
 
 			return `<li>
 						<div><h2><span class="kgnr">${id}</span> ${name}</h2>${tags}</div>
-						${unit ? `<div>
+						${unit ? `
+							<div>
 							<span class="unit">${unit}</span><span class="arrow"> → </span> 
-							<span class="type">${type}</span><span class="arrow"> → </span>
-							<span class="assess">${assess}</span>
-						</div>` : ''}
+							<span class="type">${type}</span><span class="arrow">
+							</div>` : ''}
 					</li>`;
 		})
 		.join("");

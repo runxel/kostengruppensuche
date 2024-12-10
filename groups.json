@@ -352,8 +352,7 @@
 			"Erdarbeiten"
 		],
 		"unit": "m³",
-		"type": "Baugrubenrauminhalt/Erdbaurauminhalt",
-		"assess": "Rauminhalt einschließlich der Arbeitsräume und Böschungen"
+		"type": "Rauminhalt einschließlich der Arbeitsräume und Böschungen"
 	},
 	{
 		"id": "312",
@@ -369,8 +368,7 @@
 			"Spritzbetonwände"
 		],
 		"unit": "m²",
-		"type": "Umschließungsfläche",
-		"assess": "Umschlossene Begrenzungsflächen der Baugrube"
+		"type": "Umschlossene Begrenzungsflächen der Baugrube"
 	},
 	{
 		"id": "313",
@@ -379,8 +377,7 @@
 			"Beseitigung des Grund- und Schichtenwassers während der Bauzeit"
 		],
 		"unit": "m³",
-		"type": "Wasserhaltungsvolumen",
-		"assess": "Zu entwässernder Rauminhalt einschließlich der Arbeitsräume und Böschungen"
+		"type": "Zu entwässernder Rauminhalt einschließlich der Arbeitsräume und Böschungen"
 	},
 	{
 		"id": "314",
@@ -389,16 +386,14 @@
 			"Erdausbruch unter Tage einschließlich Stützung und Sicherung"
 		],
 		"unit": "m³",
-		"type": "Vortriebsvolumen",
-		"assess": "Rauminhalt des Ausbruchs"
+		"type": "Rauminhalt des Ausbruchs"
 	},
 	{
 		"id": "319",
 		"name": "Sonstige Kosten Baugrube",
 		"tags": [],
 		"unit": "m³",
-		"type": "Baugrubenrauminhalt/Erdbaurauminhalt",
-		"assess": "Rauminhalt einschließlich der Arbeitsräume und Böschungen"
+		"type": "Rauminhalt einschließlich der Arbeitsräume und Böschungen"
 	},
 	// 320 GRÜNDUNG
 	{
@@ -414,7 +409,9 @@
 			"Recyclingmaterial",
 			"Bodenlockerung",
 			"Verlegung von Geotextilien"
-		]
+		],
+		"unit": "m²",
+		"type": "Grundfläche der Baugrundverbesserung"
 	},
 	{
 		// VOB/C DIN 18300 - Abrechnung von Erdarbeiten.
@@ -432,7 +429,9 @@
 			"Streifenfundament",
 			"Einzelfundament",
 			"Pumpensumpf"
-		]
+		],
+		"unit": "m²",
+		"type": "Grundfläche der Flachgründungen"
 	},
 	{
 		"id": "323",
@@ -441,7 +440,9 @@
 			"Pfahlgründung",
 			"Brunnengründung",
 			"Verankerung"
-		]
+		],
+		"unit": "m²",
+		"type": "Grundfläche der Tiefgründungen"
 	},
 	{
 		"id": "324",
@@ -452,7 +453,9 @@
 			"Wabensteine",
 			"Verbundsteinpflaster",
 			"Bodenplattendämmung"
-		]
+		],
+		"unit": "m²",
+		"type": "Grundfläche der Gründungsbeläge"
 	},
 	{
 		"id": "325",
@@ -463,7 +466,9 @@
 			"Arbeitsfugenband",
 			"Sollbruchelement",
 			"Bewegungsfugenband"
-		]
+		],
+		"unit": "m²",
+		"type": "Abgedichtete und bekleidete Flächen"
 	},
 	{
 		"id": "326",
@@ -472,12 +477,16 @@
 			"Kiesfilterschicht",
 			"Drainrohre",
 			"Drain-Kontrollschacht"
-		]
+		],
+		"unit": "m²",
+		"type": "Grundfläche der Gründungsebene"
 	},
 	{
 		"id": "329",
 		"name": "Sonstige Kosten Gründung",
-		"tags": []
+		"tags": [],
+		"unit": "m²",
+		"type": "Grundfläche der Gründungsebene"
 	},
 	// 330 AUSSENWÄNDE
 	{
@@ -500,12 +509,16 @@
 			"Stürze",
 			"U-Schalen",
 			"Randsteine"
-		]
+		],
+		"unit": "m²",
+		"type": "Fläche der tragenden Außenwände"
 	},
 	{
 		"id": "332",
 		"name": "Nichttragende Außenwände",
-		"tags": []
+		"tags": [],
+		"unit": "m²",
+		"type": "Fläche der nichttragenden Außenwände"
 	},
 	{
 		"id": "333",
@@ -514,7 +527,9 @@
 			"Mauerwerkspfeiler",
 			"Stahlbetonstützen",
 			"Stahlstützen"
-		]
+		],
+		"unit": "m",
+		"type": "Länge der Außenstützen"
 	},
 	{
 		// VOB/C DIN 18355 - Abrechnung von Tischlerarbeiten
@@ -528,7 +543,9 @@
 			"Türen",
 			"Tore",
 			"Glas"
-		]
+		],
+		"unit": "m²",
+		"type": "Fläche der Außenwandöffnungen"
 	},
 	{
 		// VOB/C DIN 18332 - Abrechnung Naturwerksteinarbeiten
@@ -556,7 +573,9 @@
 			"PUR-Platten",
 			"Verblendmauerwerk",
 			"Vorgehängte hinterlüftete Fassaden"
-		]
+		],
+		"unit": "m²",
+		"type": "Fläche der äußeren Außenwandbekleidungen"
 	},
 	{
 		//VOB/C DIN 18352 - Abrechnung Fliesen Plattenarbeiten
@@ -571,14 +590,18 @@
 			"Dichtungsschicht",
 			"Dämmschicht",
 			"Schutzschicht"
-		]
+		],
+		"unit": "m²",
+		"type": "Fläche der inneren Außenwandbekleidungen"
 	},
 	{
 		"id": "337",
 		"name": "Außenwandelemente",
 		"tags": [
 			"Elementierte Außenwandkonstruktionen"
-		]
+		],
+		"unit": "m²",
+		"type": "Fläche der elementierten Außenwandkonstruktionen"
 	},
 	{
 		"id": "338",
@@ -590,14 +613,18 @@
 			"Markisen",
 			"Markisolette",
 			"Sonnenschutz für das Fenster"
-		]
+		],
+		"unit": "m²",
+		"type": "Fläche der Lichtschutzkonstruktionen an den Außenwänden/vertikalen Baukonstruktionen"
 	},
 	{
 		"id": "339",
 		"name": "Außenwand, sonstiges",
 		"tags": [
 			"Öffnungen, Durchbrüche, Kernbohrungen im Bestand"
-		]
+		],
+		"unit": "m²",
+		"type": "Fläche der Außenwände/Fläche der vertikalen Baukonstruktionen, außen"
 	},
 	// 240 INNENWÄNDE / VERTIKALE BAUKONSTRUKTIONEN
 	{
@@ -609,14 +636,18 @@
 		"tags": [
 			"Innenwände",
 			"flächige Konstruktionen aus Mauerwerk, Beton und Holz, einschließlich Ausfachungen, horizontaler Abdichtungen und füllender Teile (z. B. Dämmungen), jedoch ohne Bekleidungen"
-		]
+		],
+		"unit": "m²",
+		"type": "Fläche der tragenden Innenwände"
 	},
 	{
 		"id": "342",
 		"name": "Nichttragende Innenwände",
 		"tags": [
 			"Leichtbetonwände"
-		]
+		],
+		"unit": "m²",
+		"type": "Fläche der nichttragenden Innenwände"
 	},
 	{
 		"id": "343",
@@ -630,7 +661,9 @@
 			"Stahlstützen",
 			"Stahlverbundstützen",
 			"Auflagerkonsole"
-		]
+		],
+		"unit": "m",
+		"type": "Länge der Innenstützen"
 	},
 	{
 		// VOB/C DIN 18355 - Abrechnung Tischlerarbeiten
@@ -646,7 +679,9 @@
 			"Umrahmungen",
 			"Beschläge",
 			"Antrieb"
-		]
+		],
+		"unit": "m²",
+		"type": "Fläche der Innenwandöffnungen"
 	},
 	{
 		// VOB/C DIN 18350 - Abrechnung Putzarbeiten
@@ -664,7 +699,9 @@
 			"Dichtungsschicht",
 			"Dämmschicht",
 			"Schutzschicht"
-		]
+		],
+		"unit": "m²",
+		"type": "Fläche der Innenwandbekleidungen"
 	},
 	{
 		"id": "346",
@@ -675,7 +712,16 @@
 			"Schiebewand",
 			"Sanitärtrennwand",
 			"Verschläge Keller"
-		]
+		],
+		"unit": "m²",
+		"type": "Fläche der elementierten Innenwandkonstruktionen"
+	},
+	{
+		"id": "347",
+		"name": "Lichtschutz zur KG 340",
+		"tags": [],
+		"unit": "m²",
+		"type": "Fläche der Lichtschutzkonstruktionen an den Innenwänden/vertikalen Baukonstruktionen"
 	},
 	{
 		"id": "349",
@@ -687,7 +733,9 @@
 			"Handlauf",
 			"Berührungsschutz",
 			"Wandschlitze"
-		]
+		],
+		"unit": "m²",
+		"type": "Fläche der Innenwände/Fläche der vertikalen Baukonstruktionen, innen"
 	},
 	// 350 DECKEN
 	{
@@ -715,7 +763,9 @@
 			"Ortbetontreppe",
 			"Fertigteiltreppe",
 			"Stahltreppe"
-		]
+		],
+		"unit": "m²",
+		"type": "Fläche der Deckenkonstruktionen"
 	},
 	{
 		"id": "352",
@@ -723,7 +773,9 @@
 		"tags": [
 			"Flachdachfenster",
 			"Oberlicht"
-		]
+		],
+		"unit": "m²",
+		"type": "Fläche der Deckenöffnungen"
 	},
 	{
 		// VOB/C DIN 18352 - Abrechnung Fliesen Plattenarbeiten
@@ -750,7 +802,9 @@
 			"Dämmschicht",
 			"Folie",
 			"Abdichtung unter Estrich"
-		]
+		],
+		"unit": "m²",
+		"type": "Fläche der Deckenbeläge"
 	},
 	{
 		"id": "354",
@@ -763,12 +817,16 @@
 			"Perimeterdämmung",
 			"Betonsauberkeitsschicht",
 			"Sohlplatte"
-		]
+		],
+		"unit": "m²",
+		"type": "Fläche der Deckenbekleidungen"
 	},
 	{
 		"id": "355",
 		"name": "Elementierte Deckenkonstruktionen",
-		"tags": []
+		"tags": [],
+		"unit": "m²",
+		"type": "Fläche der elementierten Deckenkonstruktionen"
 	},
 	{
 		"id": "359",
@@ -785,7 +843,9 @@
 			"Betonsägeschnitt",
 			"Deckendurchbruch",
 			"Anschweißplatte für Geländer"
-		]
+		],
+		"unit": "m²",
+		"type": "Flächen der Decken/Flächen der horizontalen Baukonstruktionen"
 	},
 	// 360 DÄCHER
 	{
@@ -800,8 +860,11 @@
 			"Abbund",
 			"Brandschutzbeschichtung",
 			"Windrispenverband",
-			"Zwischensparrendämmung"
-		]
+			"Zwischensparrendämmung",
+			"Vordach"
+		],
+		"unit": "m²",
+		"type": "Fläche der Dachkonstruktionen einschließlich der Dachüberstände und Vordächer"
 	},
 	{
 		"id": "362",
@@ -810,41 +873,50 @@
 			"Dachluke",
 			"Dachfenster",
 			"Dachflächen-Wohnraumfenster",
-			"Lichtkuppel"
-		]
-	},
-	{
-		"id": "363",
-		"name": "Öffnungen, Umrahmungen",
-		"tags": [
+			"Lichtkuppel",
 			"Auswechselung",
 			"Wechsel",
 			"Umrahmung"
-		]
+		],
+		"unit": "m²",
+		"type": "Fläche der Dachöffnungen"
+	},
+	{
+		"id": "363",
+		"name": "Dachbeläge",
+		"tags": [],
+		"unit": "m²",
+		"type": "Fläche der Dachbeläge"
 	},
 	{
 		"id": "364",
-		"name": "Beläge auf Dachkonstruktionen",
+		"name": "Dachbekleidungen",
 		"tags": [
 			"Dachlatte",
 			"Eternitpfette",
 			"Konterlattung"
-		]
+		],
+		"unit": "m²",
+		"type": "Fläche der Dachbekleidungen"
 	},
 	{
 		"id": "365",
 		"name": "Elementierte Dachkonstruktionen",
 		"tags": [
 			"Dachgaube"
-		]
+		],
+		"unit": "m²",
+		"type": "Fläche der elementierten Dachkonstruktion"
 	},
 	{
 		"id": "366",
-		"name": "Lichtschutz",
+		"name": "Lichtschutz zur KG 360",
 		"tags": [
 			"Rollladen",
 			"Jalousie"
-		]
+		],
+		"unit": "m²",
+		"type": "Fläche der Lichtschutzkonstruktionen an Dächern"
 	},
 	{
 		// VOB/C 18338 - Abrechnung von Dachdeckerarbeiten
@@ -1098,7 +1170,51 @@
 			"Sanitärzellen"
 		]
 	},
-	// 430 LUFTTECHNISCHE ANLAGEN
+	// 420 WÄRMEVERSORGUNGSANLAGEN
+	{
+		"id": "421",
+		"name": "Wärmeerzeugungsanlagen",
+		"tags": [
+			"Brennstoffversorgung",
+			"Wärmeübergabestationen",
+			"Wärmeerzeugung auf der Grundlage von Brennstoffen oder unerschöpflichen Energiequellen einschließlich Schornsteinanschlüssen und zentraler Wassererwärmungsanlagen"
+		]
+	},
+	{
+		"id": "422",
+		"name": "Wärmeverteilnetze",
+		"tags": [
+			"Pumpen",
+			"Verteiler",
+			"Rohrleitungen für Raumheizflächen",
+			"raumlufttechnische Anlagen und sonstige Wärmeverbraucher"
+		]
+	},
+	{
+		"id": "423",
+		"name": "Raumheizflächen",
+		"tags": [
+			"Heizkörper",
+			"Flächenheizsysteme"
+		]
+	},
+	{
+		"id": "424",
+		"name": "Verkehrsheizflächen",
+		"tags": [
+			"Fahrbahnbeheizung",
+			"Weichenheizung",
+			"Flugfeldbeheizung"
+		]
+	},
+	{
+		"id": "429",
+		"name": "Sonstiges zur KG 420",
+		"tags": [
+			"Schornsteine, soweit nicht in anderen Kostengruppen erfasst"
+		]
+	},
+	// 430 RAUMLUFTTECHNISCHE ANLAGEN
 	{
 		"id": "431",
 		"name": "Lüftungsanlagen",
@@ -1148,7 +1264,7 @@
 	},
 	{
 		"id": "439",
-		"name": "Lufttechnische Anlagen, sonstiges",
+		"name": "Sonstiges zur KG 430",
 		"tags": [
 			"Lüftungsdecke",
 			"Luftleitungen",
@@ -1157,7 +1273,423 @@
 			"Installationsdoppelböden"
 		]
 	},
-	// 500 AUSSENANLAGEN   
+	// 440 ELEKTRISCHE ANLAGEN
+	{
+		"id": "441",
+		"name": "Hoch- und Mittelspannungsanlagen",
+		"tags": [
+			"Schaltanlagen",
+			"Transformatoren"
+		]
+	},
+	{
+		"id": "442",
+		"name": "Eigenstromversorgungsanlagen",
+		"tags": [
+			"Stromerzeugungsaggregate einschließlich Kühlung, Abgasanlagen, Brennstoffversorgung",
+			"zentrale Batterie- und unterbrechungsfreier Stromversorgungsanlagen",
+			"photovoltaischer Anlagen",
+			"Photovoltaik",
+			"PV-Anlage"
+		]
+	},
+	{
+		"id": "443",
+		"name": "Niederspannungsschaltanlagen",
+		"tags": [
+			"Niederspannungshauptverteiler",
+			"Blindstromkompensationsanlagen",
+			"Maximumüberwachungsanlagen",
+			"Oberschwingungsfilter"
+		]
+	},
+	{
+		"id": "444",
+		"name": "Niederspannungsinstallationsanlagen",
+		"tags": [
+			"Kabel",
+			"Stromleitungen",
+			"Unterverteiler",
+			"Verlegesysteme",
+			"Installationsgeräte"
+		]
+	},
+	{
+		"id": "445",
+		"name": "Beleuchtungsanlagen",
+		"tags": [
+			"Ortsfeste Leuchten",
+			"Sicherheitsbeleuchtung und Beleuchtungsanlagen für Anlagen des Verkehrs sowie Flutlichtanlagen"
+		]
+	},
+	{
+		"id": "446",
+		"name": "Blitzschutz- und Erdungsanlagen",
+		"tags": [
+			"Auffangeinrichtungen",
+			"Ableitungen",
+			"Erdungen",
+			"Potentialausgleich"
+		]
+	},
+	{
+		"id": "447",
+		"name": "Fahrleitungssysteme",
+		"tags": [
+			"Stromführende Leitungen für den Schienen- und Straßenverkehr"
+		]
+	},
+	{
+		"id": "449",
+		"name": "Sonstiges zur KG 440",
+		"tags": [
+			"Frequenzumformer"
+		]
+	},
+	// 450 KOMMUNIKATIONS-, SICHERHEITS- UND INFORMATIONSTECHNISCHE ANLAGEN   
+	{
+		"id": "451",
+		"name": "Telekommunikationsanlagen",
+		"tags": [
+			"Einrichtungen zur Datenübertragung (Sprache, Text und Bild), soweit nicht in der KG 630 erfasst"
+		]
+	},
+	{
+		"id": "452",
+		"name": "Such- und Signalanlagen",
+		"tags": [
+			"Personenrufanlagen",
+			"Lichtruf- und Klingelanlagen",
+			"Türsprechanlagen",
+			"Türöffneranlagen"
+		]
+	},
+	{
+		"id": "453",
+		"name": "Zeitdienstanlagen",
+		"tags": [
+			"Uhren- und Zeiterfassungsanlagen"
+		]
+	},
+	{
+		"id": "454",
+		"name": "Elektroakustische Anlagen",
+		"tags": [
+			"Beschallungsanlagen",
+			"Konferenz- und Dolmetscheranlagen",
+			"Gegensprechanlagen",
+			"Wechselsprechanlagen"
+		]
+	},
+	{
+		"id": "455",
+		"name": "Audiovisuelle Medien- und Antennenanlagen",
+		"tags": [
+			"AV-Medienanlagen, soweit nicht in anderen Kostengruppen erfasst, einschließlich der Sende- und Empfangsantennenanlagen und der Umsetzer"
+		]
+	},
+	{
+		"id": "456",
+		"name": "Gefahrenmelde- und Alarmanlagen",
+		"tags": [
+			"Brand-, Überfall-, Einbruchmeldeanlagen",
+			"Wächterkontrollanlagen",
+			"Zugangskontrollanlagen",
+			"Überwachungsanlagen im privaten und öffentlichen Raum"
+		]
+	},
+	{
+		"id": "457",
+		"name": "Datenübertragungsnetze",
+		"tags": [
+			"Netze zur Datenübertragung (Sprache, Text und Bild), soweit nicht in anderen Kostengruppen erfasst",
+			"Verlegesysteme, soweit nicht in der KG 444 erfasst"
+		]
+	},
+	{
+		"id": "458",
+		"name": "Verkehrsbeeinflussungsanlagen",
+		"tags": [
+			"Verkehrssignalanlagen",
+			"elektronische Anzeigetafeln",
+			"Mautsysteme",
+			"Parkleitsysteme",
+			"Verkehrstelematik"
+		]
+	},
+	{
+		"id": "459",
+		"name": "Sonstiges zur KG 450",
+		"tags": [
+			"Fernwirkanlagen"
+		]
+	},
+	// 460 FÖRDERANLAGEN
+	{
+		"id": "461",
+		"name": "Aufzugsanlagen",
+		"tags": [
+			"Personenaufzüge, Lastenaufzüge"
+		]
+	},
+	{
+		"id": "462",
+		"name": "Fahrtreppen, Fahrsteige",
+		"tags": [
+			"Rolltreppen"
+		]
+	},
+	{
+		"id": "463",
+		"name": "Befahranlagen",
+		"tags": [
+			"Fassadenaufzüge und andere Befahranlagen"
+		]
+	},
+	{
+		"id": "464",
+		"name": "Transportanlagen",
+		"tags": [
+			"Automatische Warentransportanlagen",
+			"Aktentransportanlagen",
+			"Rohrpostanlagen"
+		]
+	},
+	{
+		"id": "465",
+		"name": "Krananlagen",
+		"tags": [
+			"Krananlagen einschließlich Hebezeugen"
+		]
+	},
+	{
+		"id": "465",
+		"name": "Hydraulikanlagen",
+		"tags": [
+			"Hydraulikanlagen einschließlich hydraulischer Antriebe für mechanische Baukonstruktionen (z. B. für Toranlagen, Brücken, Ausleger, Entnahmeanlagen an Talsperren) sowie im Stahlwasserbau (z. B. für Schleusentore, Docktore, Wehrverschlüsse), soweit nicht in den KG 461 bis 465 und 469 erfasst"
+		]
+	},
+	{
+		"id": "469",
+		"name": "Sonstiges zur KG 460",
+		"tags": [
+			"Hebebühnen, Parksysteme"
+		]
+	},
+	// 470 NUTZUNGSSPEZIFISCHE UND VERFAHRENSTECHNISCHE ANLAGEN
+	{
+		"id": "471",
+		"name": "Küchentechnische Anlagen",
+		"tags": [
+			"Küchentechnische Anlagen zur Zubereitung, Ausgabe und Lagerung von Speisen und Getränken einschließlich zugehöriger Kälteanlagen"
+		]
+	},
+	{
+		"id": "472",
+		"name": "Wäscherei-, Reinigungs- und badetechnische Anlagen",
+		"tags": [
+			"Wäscherei- und Reinigungsanlagen einschließlich zugehöriger Wasseraufbereitung",
+			"Desinfektions- und Sterilisationseinrichtungen",
+			"Aufbereitungsanlagen für Schwimmbeckenwasser, soweit nicht in der KG 410 erfasst"
+		]
+	},
+	{
+		"id": "473",
+		"name": "Medienversorgungsanlagen, Medizin- und labortechnische Anlagen",
+		"tags": [
+			"Zentralen für technische und medizinische Gase, Drucklufterzeugung, Vakuumerzeugung, Flüssigchemikalien, Lösungsmittel und vollentsalztes Wasser",
+			"Leitungen, Armaturen und Übergabestationen für technische und medizinische Gase, Druckluft, Vakuum, Flüssigchemikalien, Lösungsmittel und vollentsalztes Wasser",
+			"Diagnosegeräte, Behandlungsgeräte, OP-Einrichtungen und Hilfseinrichtungen für Menschen mit Behinderungen",
+			"Abzüge und Spülen",
+			"Wand- und Doppelarbeitstische",
+			"Medienzellen"
+		]
+	},
+	{
+		"id": "474",
+		"name": "Feuerlöschanlagen",
+		"tags": [
+			"Sprinkler- und Gaslöschanlagen",
+			"Löschwasserleitungen",
+			"Wandhydranten",
+			"Handfeuerlöscher"
+		]
+	},
+	{
+		"id": "475",
+		"name": "Prozesswärme-, kälte- und -luftanlagen",
+		"tags": [
+			"Wärme-, Kälte- und Kühlwasserversorgungsanlagen (z. B. für Produktion-, Forschung und Sportanlagen), soweit nicht in anderen Kostengruppen erfasst",
+			"Farbnebelabscheideanlagen",
+			"Prozessfortluftsysteme",
+			"Absauganlagen"
+		]
+	},
+	{
+		"id": "476",
+		"name": "Weitere nutzungsspezifische Anlagen",
+		"tags": [
+			"Abfall- und Medienentsorgungsanlagen",
+			"Staubsauganlagen",
+			"Bühnentechnische Anlagen",
+			"Tankstellen- und Waschanlagen",
+			"Taumittelsprüh- und Enteisungsanlagen"
+		]
+	},
+	{
+		"id": "477",
+		"name": "Verfahrenstechnische Anlagen, Wasser, Abwasser und Gase",
+		"tags": [
+			"Verfahrenstechnische Anlagen für Wassergewinnung, Abwasserbehandlung und -entsorgung (z. B. Anlagen der Wassergewinnung, Wasseraufbereitungsanlagen, Abwassereinigungsanlagen, Schlammbehandlungsanlagen, Regenwasserbehandlungsanlagen, Grundwasserdekontaminierungsanlagen)",
+			"Anlagen für die Ver- und Entsorgung mit Gasen (z. B. Odorieranlagen)"
+		]
+	},
+	{
+		"id": "478",
+		"name": "Verfahrenstechnische Anlagen, Feststoffe, Wertstoffe und Abfälle",
+		"tags": [
+			"Anlagen für die Ver- und Entsorgung mit Feststoffen; Anlagen der Abfallentsorgung (z. B. für Kompostwerke, Mülldeponien, Verbrennungsanlagen, Pyrolyseanlagen, mehrfunktionale Aufbereitungsanlagen für Wertstoffe)"
+		]
+	},
+	{
+		"id": "479",
+		"name": "Sonstiges zur KG 470",
+		"tags": [
+			"Entnahmeanlagen an Talsperren (hinsichtlich Wassermenge und Wassergüte) einschließlich der Entnahmeleitungen, der Antriebe und aller Anlagenteile (z. B. Armaturen, Formstücke, Pass- und Ausbaustücke, Sonderbauteile)",
+			"Messtechnische Überwachungsanlagen an Stauanlagen (z. B. Pegel, geodätische Messpunkte, mobile Messgeräte, Lote, Thermometer, Sickerwasser-, Grundwasser- und Sohlwasserdruckmesseinrichtungen) einschließlich Übertragungssystemen"
+		]
+	},
+	// 480 GEBÄUDE- UND ANLAGENAUTOMATION
+	{
+		"id": "481",
+		"name": "Automationseinrichtungen",
+		"tags": [
+			"Automationsstationen, Bedien-, Anzeige- und Ausgabeeinrichtungen",
+			"Hard- und Software",
+			"Lizenzen",
+			"Schnittstellen",
+			"Feldgeräte",
+			"Programmiereinrichtungen"
+		]
+	},
+	{
+		"id": "482",
+		"name": "Schaltschränke, Automationsschwerpunkte",
+		"tags": [
+			"Schaltschränke zur Aufnahme von Automationseinrichtungen,Leistungs-, Steuerungs- und Sicherungsbaugruppen"
+		]
+	},
+	{
+		"id": "483",
+		"name": "Automationsmanagement",
+		"tags": [
+			"Übergeordnete Einrichtungen für Automation und Management, Bedien-, Anzeige- und Ausgabeeinrichtungen, Hard- und Software, Lizenzen, Funktionen, Schnittstellen"
+		]
+	},
+	{
+		"id": "484",
+		"name": "Kabel, Leitungen und Verlegesysteme",
+		"tags": [
+			"Kabel, Leitungen und Verlegesysteme, soweit nicht in anderen Kostengruppen erfasst"
+		]
+	},
+	{
+		"id": "485",
+		"name": "Datenübertragungsnetze",
+		"tags": [
+			"Netze zur Datenübertragung, soweit nicht in anderen Kostengruppen erfasst"
+		]
+	},
+	{
+		"id": "489",
+		"name": "Sonstiges zur KG 480",
+		"tags": []
+	},
+	// 490 SONSTIGE MASSNAHMEN FÜR TECHNISCHE ANLAGEN
+	{
+		"id": "491",
+		"name": "Baustelleneinrichtung",
+		"tags": [
+			"Einrichten, Vorhalten, Betreiben und Räumen der übergeordneten Baustelleneinrichtung für technische Anlagen",
+			"Material- und Geräteschuppen",
+			"Lager-, Wasch-, Toiletten- und Aufenthaltsräume",
+			"Bauwagen",
+			"Misch- und Transportanlagen",
+			"Energie- und Bauwasseranschlüsse",
+			"Baustraßen",
+			"Lager- und Arbeitsplätze",
+			"Verkehrssicherungen",
+			"Abdeckungen",
+			"Bauschilder",
+			"Bau- und Schutzzäune",
+			"Baubeleuchtung",
+			"Baustrom",
+			"Bauwasser"
+		]
+	},
+	{
+		"id": "492",
+		"name": "Gerüste",
+		"tags": [
+			"Auf-, Um-, und Abbauen sowie Vorhalten von Gerüsten"
+		]
+	},
+	{
+		"id": "493",
+		"name": "Sicherungsmaßnahmen",
+		"tags": [
+			"Sicherungsmaßnahmen an bestehenden Bauwerken (z. B. Unter- fangungen, Abstützungen)"
+		]
+	},
+	{
+		"id": "494",
+		"name": "Abbruchmaßnahmen",
+		"tags": [
+			"Abbruch- und Demontagearbeiten einschließlich Zwischenlagern wieder verwendbarer Teile, Abfuhr des Abbruchmaterials, soweit nicht in anderen Kostengruppen erfasst"
+		]
+	},
+	{
+		"id": "495",
+		"name": "Instandsetzungen",
+		"tags": [
+			"Maßnahmen zur Wiederherstellung des zum bestimmungsgemäßen Gebrauch geeigneten Zustandes, soweit nicht in anderen Kostengruppen erfasst"
+		]
+	},
+	{
+		"id": "496",
+		"name": "Materialentsorgung",
+		"tags": [
+			"Entsorgung von Materialien und Stoffen, die bei dem Abbruch, bei der Demontage und bei dem Ausbau von Anlagenteilen oder bei der Erstellung einer Bauleistung anfallen zum Zweck des Recyclings oder Deponierung"
+		]
+	},
+	{
+		"id": "497",
+		"name": "Zusätzliche Maßnahmen",
+		"tags": [
+			"Zusätzliche Maßnahmen bei der Erstellung von technischen Anlagen (z. B. Schutz von Personen und Sachen sowie betriebliche Sicherungsmaßnahmen beim Bauen unter Betrieb); Reinigung vor der Inbetriebnahme",
+			"Maßnahmen aufgrund von Forderungen des Wasser-, Landschafts-, Lärm- und Erschütterungsschutzes während der Bauzeit",
+			"Schlechtwetter und Winterbauschutz",
+			"Erwärmung der technischen Anlagen",
+			"Schneeräumung"
+		]
+	},
+	{
+		"id": "498",
+		"name": "Provisorische technische Anlagen",
+		"tags": [
+			"Erstellung, Betrieb und Beseitigung provisorischer technischer Anlagen",
+			"Anpassung der technischen Anlagen bis zur Inbetriebnahme der endgültigen technischen Anlagen"
+		]
+	},
+	{
+		"id": "499",
+		"name": "Sonstiges zur KG 490",
+		"tags": [
+			"Technische Anlagen und Maßnahmen, die mehrere Kostengruppen betreffen",
+			"Baustellengemeinkosten"
+		]
+	},
+	// 500 AUSSENANLAGEN
 	// 510 ERDBAU
 	{
 		"id": "511",
@@ -1259,7 +1791,7 @@
 		"name": "Sonstiges zu KG 520",
 		"tags": []
 	},
-	// 530 OBERBAU-DECKSCHICHTEN
+	// 530 OBERBAU, DECKSCHICHTEN
 	{
 		"id": "531",
 		"name": "Wege",
@@ -1864,7 +2396,9 @@
 	{
 		"id": "741",
 		"name": "Tragwerksplanung",
-		"tags": []
+		"tags": [
+			"Statik"
+		]
 	},
 	{
 		"id": "742",
@@ -1886,7 +2420,8 @@
 		"name": "Ingenieurvermessung",
 		"tags": [
 			"Planungs- und baubezogene vermessungstechnische Leistungen",
-			"Lageplan"
+			"Lageplan",
+			"ÖbVI"
 		]
 	},
 	{
