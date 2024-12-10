@@ -78,7 +78,7 @@ function displayResults(results, query) {
 						${unit ? `
 							<div>
 							<span class="unit">${unit}</span><span class="arrow"> → </span> 
-							<span class="type">${type}</span><span class="arrow">
+							<span class="type">${type}</span>
 							</div>` : ''}
 					</li>`;
 		})
