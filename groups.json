@@ -698,7 +698,8 @@
 			"Putz",
 			"Dichtungsschicht",
 			"Dämmschicht",
-			"Schutzschicht"
+			"Schutzschicht",
+			"Tapete"
 		],
 		"unit": "m²",
 		"type": "Fläche der Innenwandbekleidungen"
@@ -2040,7 +2041,8 @@
 			"Abfallbehälter",
 			"Fahnenmaste",
 			"Absperrpoller",
-			"Stoßabweiser"
+			"Stoßabweiser",
+			"Verkehrsschilder"
 		]
 	},
 	{
@@ -2048,9 +2050,11 @@
 		"name": "Besondere Einbauten",
 		"tags": [
 			"Einbauten in Spielplätzen",
-			"Spielgeräte",
+			"Spielgeräte (auf Spielplätzen)",
 			"Klettereinrichtungen",
-			"Einbauten für Sportanlagen, Freizeitanlagen und Tiergehege"
+			"Einbauten für Sportanlagen, Freizeitanlagen und Tiergehege",
+			"Gewächshäuser",
+			"Sauna"
 		]
 	},
 	{
@@ -2215,7 +2219,11 @@
 		"id": "610",
 		"name": "Allgemeine Ausstattung",
 		"tags": [
-			"Möbel und Geräte (z. B. Sitz- und Liegemöbel, Schränke, Regale, Tische); Textilien (z. B. Vorhänge, Wandbehänge, lose Teppiche, Wäsche); Hauswirtschafts-, Garten- und Reinigungsgeräte"
+			"Möbel und Geräte (z. B. Sitz- und Liegemöbel, Schränke, Regale, Tische)",
+			"Textilien (z. B. Vorhänge, Wandbehänge, lose Teppiche, Wäsche)",
+			"Hauswirtschaftsgeräte",
+			"Gartengeräte",
+			"Reinigungsgeräte"
 		]
 	},
 	{
@@ -2255,7 +2263,7 @@
 		"id": "642",
 		"name": "Künstlerische Gestaltung des Bauwerks",
 		"tags": [
-			"Künstlerisch gestaltete Teile des Bauwerks (z. B. Malereien, Reliefs, Mosaiken, künstlerische Glas-, Schmiede-, Steinmetzarbeiten)"
+			"Künstlerisch gestaltete Teile des Bauwerks (z. B. Malereien, Reliefs, Mosaiken, künstlerische Glasarbeiten, Schmiedearbeiten, Steinmetzarbeiten)"
 		]
 	},
 	{
